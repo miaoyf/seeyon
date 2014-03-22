@@ -16,9 +16,9 @@
 		class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter" />
 
 	<!-- 对模型视图名称的解析，在请求时模型视图名称添加前后缀 -->
-	<!-- <bean
+	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver"
-		p:prefix="/WEB-INF/jsp/" p:suffix=".jsp" /> -->
+		p:prefix="/WEB-INF/jsp/" p:suffix=".jsp" />
 
 	<!-- apache.dbcp连接池的配置 -->
 	<bean id="dataSource"
@@ -29,7 +29,7 @@
 		</property>
 		<property name="url" value="jdbc:mysql://localhost:3306/seeyon"></property>
 		<property name="username" value="root"></property>
-		<property name="password" value="tanmf123456"></property>
+		<property name="password" value="123456"></property>
 		<property name="maxActive" value="100"></property>
 		<property name="maxIdle" value="30"></property>
 		<property name="maxWait" value="500"></property>
